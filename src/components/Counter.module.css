@@ -1,0 +1,230 @@
+.hiringPlatformFor {
+  font-family: var(--font-garnett-regular);
+}
+.howReworkAiContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 212px;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  font-family: inherit;
+}
+.flipFlop {
+  width: 391px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-19xl);
+  font-family: var(--font-garnett-medium);
+}
+.rAM {
+  position: relative;
+  display: inline-block;
+  min-width: 101px;
+}
+.readWriteMemory {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-51xl) 0 70.19999999999999px;
+}
+.reductionInYour {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray);
+  text-align: center;
+}
+.writeOnceMemory {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 157px;
+}
+.writeOnceMemory1 {
+  height: 184px;
+  width: 2px;
+  position: relative;
+  border-right: 2px solid var(--primary-100);
+  box-sizing: border-box;
+}
+.b {
+  position: relative;
+  display: inline-block;
+  min-width: 101px;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-51xl) 0 70.20000000000005px;
+}
+.streamlineYourBudgeting {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray);
+  text-align: center;
+}
+.writeOnceMemory2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 157px;
+}
+.writeOnceMemory3 {
+  height: 184px;
+  width: 2px;
+  position: relative;
+  border-right: 2px solid var(--primary-100);
+  box-sizing: border-box;
+}
+.randomAccessMemory,
+.readOnlyMemory {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.readOnlyMemory {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 17.366666666666713px;
+}
+.randomAccessMemory {
+  width: 538.7px;
+  flex-direction: column;
+  padding: var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.k {
+  position: relative;
+  display: inline-block;
+  min-width: 84px;
+}
+.inputPort {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-60xl) 0 78.59999999999991px;
+}
+.certifiedSourcingPartners {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray);
+  text-align: center;
+}
+.bufferPool {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.cache,
+.counter,
+.latch {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.cache {
+  width: 241.3px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) 0 0;
+}
+.counter,
+.latch {
+  flex-direction: row;
+  max-width: 100%;
+}
+.latch {
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-76xl) var(--padding-xl) var(--padding-76xl)
+    var(--padding-2xl);
+  gap: var(--gap-base);
+}
+.counter {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) var(--padding-58xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--primary-100);
+  font-family: var(--font-space-grotesk);
+}
+@media screen and (max-width: 1400px) {
+  .latch {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 825px) {
+  .howReworkAiContainer {
+    font-size: var(--font-size-11xl);
+  }
+  .rAM {
+    font-size: var(--font-size-21xl);
+  }
+  .writeOnceMemory1 {
+    width: 100%;
+    height: 2px;
+  }
+  .b {
+    font-size: var(--font-size-21xl);
+  }
+  .writeOnceMemory3 {
+    width: 100%;
+    height: 2px;
+  }
+  .readOnlyMemory {
+    flex-wrap: wrap;
+  }
+  .k {
+    font-size: var(--font-size-21xl);
+  }
+  .counter {
+    padding-bottom: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .howReworkAiContainer {
+    font-size: var(--font-size-4xl);
+  }
+  .b,
+  .k,
+  .rAM {
+    font-size: var(--font-size-11xl);
+  }
+  .latch {
+    padding-top: var(--padding-43xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}

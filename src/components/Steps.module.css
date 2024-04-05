@@ -1,0 +1,73 @@
+.uploadDocuments {
+  width: 339.3px;
+  position: relative;
+  line-height: 29px;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.shortlistTheMost {
+  align-self: stretch;
+  position: relative;
+}
+.progressCircle,
+.sliderThumb {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.progressCircle {
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) var(--padding-lgi);
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-100);
+}
+.wrapperFrame48095633Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(1.333);
+}
+.steps,
+.wrapperFrame48095633 {
+  display: flex;
+  align-items: center;
+}
+.wrapperFrame48095633 {
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0.3px;
+  border-radius: 0 0 0 var(--br-3xs);
+  justify-content: center;
+  z-index: 2;
+}
+.steps {
+  flex: 1;
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 0.30000000000001137px var(--padding-41xl) var(--padding-11xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 299px;
+  min-height: 282px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .uploadDocuments {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+}

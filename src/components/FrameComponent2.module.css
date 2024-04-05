@@ -1,0 +1,231 @@
+.microsoft1Icon {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.microsoft1Wrapper {
+  margin-left: -211px;
+  height: 34px;
+  width: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.google20151Icon {
+  align-self: stretch;
+  height: 31px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.google20151Wrapper {
+  height: 36.5px;
+  width: 99px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs-5);
+  box-sizing: border-box;
+}
+.kisspngAmazonComLogoBrandIcon {
+  align-self: stretch;
+  height: 38px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.kisspngAmazonComLogoBrandWrapper {
+  height: 40px;
+  width: 106px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.hireFor1000,
+.shapeSet {
+  display: flex;
+  justify-content: center;
+}
+.hireFor1000 {
+  width: 312px;
+  position: relative;
+  font-weight: 500;
+  align-items: center;
+}
+.shapeSet {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.kisspngNokiaNetworksLogoNyIcon {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.kisspngNokiaNetworksLogoNyWrapper {
+  height: 34px;
+  width: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.vectorIcon {
+  height: 42px;
+  width: 140px;
+  position: relative;
+}
+.microsoft2Icon {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.microsoft2Wrapper {
+  height: 34px;
+  width: 131px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.dataHub,
+.frameGroup,
+.microsoft2Wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.dataHub {
+  width: 562px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.google20152Icon {
+  align-self: stretch;
+  height: 31px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.google20152Wrapper {
+  height: 36.5px;
+  width: 99px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs-5);
+  box-sizing: border-box;
+}
+.kisspngAmazonComLogoBrandIcon1 {
+  align-self: stretch;
+  height: 38px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.kisspngAmazonComLogoBrandContainer {
+  height: 40px;
+  width: 106px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.kisspngNokiaNetworksLogoNyIcon1 {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.kisspngNokiaNetworksLogoNyContainer {
+  height: 34px;
+  width: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--primary-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) var(--padding-54xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-plum);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1400px) {
+  .frameParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frameGroup {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .frameParent {
+    gap: 80px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hireFor1000 {
+    font-size: var(--font-size-base);
+  }
+  .frameParent {
+    gap: 80px 20px;
+  }
+}

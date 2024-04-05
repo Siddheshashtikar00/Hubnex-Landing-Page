@@ -1,0 +1,80 @@
+.reworkHasBeen {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+}
+.xNORProcessor {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.theresaWebb {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.hrManagerAmazon {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--neutrals-300);
+}
+.component16,
+.container,
+.nOTProcessor {
+  display: flex;
+  justify-content: flex-start;
+}
+.container {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-81xl-3) 0 0;
+  box-sizing: border-box;
+  min-width: 178px;
+}
+.component16,
+.nOTProcessor {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-lgi);
+  font-size: var(--font-size-5xl);
+  color: var(--primary-100);
+  font-family: var(--font-garnett-regular);
+}
+.component16 {
+  border-radius: var(--br-base);
+  background-color: var(--primary-300);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-xl);
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .theresaWebb {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .container {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .nOTProcessor {
+    flex-wrap: wrap;
+  }
+}

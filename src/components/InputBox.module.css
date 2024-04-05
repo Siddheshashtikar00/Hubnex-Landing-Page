@@ -1,0 +1,643 @@
+.logoChild,
+.logoItem {
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+}
+.logoChild {
+  width: 96.8px;
+  right: -0.3px;
+  border-radius: 0 5.71px 0 0;
+  background-color: var(--primary-100);
+}
+.logoItem {
+  width: 117.8px;
+  left: 0;
+  border-radius: 5.71px;
+  border: 1.4px solid var(--primary-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.r {
+  letter-spacing: -0.02em;
+}
+.e {
+  letter-spacing: 0.08em;
+}
+.re {
+  font-weight: 600;
+}
+.work {
+  letter-spacing: -0.02em;
+  font-family: var(--font-actor);
+  color: var(--color-white);
+}
+.ai,
+.rework {
+  position: relative;
+  display: inline-block;
+}
+.rework {
+  height: 24px;
+  min-width: 107.1px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.ai {
+  height: 8px;
+  min-width: 10px;
+  z-index: 1;
+}
+.aiWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+  font-size: var(--font-size-xs-4);
+  color: var(--color-white);
+  font-family: var(--font-gilroy-regular);
+}
+.aiWrapper,
+.logo,
+.logoWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.logo {
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-6xs) var(--padding-5xs)
+    7.800000000000001px;
+  position: relative;
+  gap: 7.1000000000000085px;
+}
+.logoWrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  text-align: left;
+  font-family: var(--font-outfit);
+}
+.talentFinder {
+  width: 103px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 103px;
+  white-space: nowrap;
+}
+.forEmployers,
+.forRecruiters {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.forRecruiters {
+  flex: 1;
+  min-width: 109px;
+}
+.forEmployers {
+  align-self: stretch;
+  font-weight: 600;
+  min-width: 115px;
+}
+.frameChild {
+  height: 3px;
+  width: 37px;
+  position: relative;
+}
+.forEmployersParent,
+.vectorWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorWrapper {
+  height: 3px;
+  flex-direction: row;
+  padding: 0 var(--padding-20xl);
+  box-sizing: border-box;
+}
+.forEmployersParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+  color: var(--primary-100);
+}
+.aboutUs,
+.company {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutUs {
+  width: 72px;
+  min-width: 72px;
+  white-space: nowrap;
+}
+.company {
+  width: 80px;
+  min-width: 80px;
+}
+.outputPortInner,
+.talentFinderParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.talentFinderParent {
+  width: 607px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.outputPortInner {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.logIn {
+  width: 53px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-width: 53px;
+  white-space: nowrap;
+}
+.vectorIcon,
+.vectorIcon1 {
+  height: 0;
+  width: 18px;
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon1 {
+  height: 14px;
+  width: 7px;
+  z-index: 2;
+  margin-left: -5px;
+}
+.arrow {
+  height: 14px;
+  width: 1px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.simpleButton {
+  width: 129px;
+  border-radius: var(--br-3xs);
+  border: 2px solid var(--primary-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-5) var(--padding-17xl);
+  gap: var(--gap-base);
+}
+.getStarted {
+  width: 104px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-width: 104px;
+  white-space: nowrap;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  height: 0;
+  width: 18px;
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon3 {
+  height: 14px;
+  width: 7px;
+  z-index: 2;
+  margin-left: -5px;
+}
+.arrow1 {
+  height: 14px;
+  width: 1px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.outputPort,
+.simpleButton1,
+.simpleButtonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.simpleButton1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-100);
+  padding: var(--padding-4xs-5) var(--padding-5xl);
+  gap: var(--gap-base);
+  color: var(--color-white);
+}
+.outputPort,
+.simpleButtonParent {
+  gap: var(--gap-mid);
+  font-size: var(--font-size-lg);
+}
+.outputPort {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-17xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-16xl-5);
+  color: var(--primary-100);
+  font-family: var(--font-poppins);
+}
+.frameItem,
+.heading {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+.heading {
+  bottom: 0;
+  left: 174px;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke-100);
+  width: 596px;
+}
+.frameItem {
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--primary-100);
+  width: 100%;
+  display: none;
+}
+.k {
+  margin: 0;
+}
+.candidatesHired {
+  margin: 0;
+  font-size: var(--font-size-smi-3);
+  font-family: var(--font-garnett-light);
+}
+.kCandidatesHiredContainer {
+  position: absolute;
+  top: 22px;
+  left: 92px;
+  z-index: 1;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--primary-300);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.buttonIcon {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 28.3px;
+  height: 28.3px;
+  z-index: 2;
+}
+.rectangleGroup,
+.rectangleParent {
+  position: absolute;
+  border-radius: var(--br-8xs);
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--primary-300);
+  top: 15px;
+  left: 16px;
+  width: 64px;
+  height: 64px;
+  z-index: 1;
+}
+.rectangleParent {
+  top: 358px;
+  left: 0;
+  background-color: var(--primary-100);
+  width: 219px;
+  height: 94px;
+}
+.maskGroupChild {
+  position: absolute;
+  top: 145px;
+  left: 175px;
+  border-radius: 0 0 0 var(--br-96xl);
+  width: 567px;
+  height: 402px;
+  object-fit: cover;
+  z-index: 4;
+}
+.maskGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 555px;
+  overflow: hidden;
+  z-index: 1;
+}
+.headingParent {
+  height: 596px;
+  width: 744px;
+  position: absolute;
+  margin: 0 !important;
+  right: -635px;
+  bottom: -370px;
+}
+.powerUpYour {
+  margin: 0;
+}
+.withRework {
+  margin: 0;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-garnett-regular);
+}
+.powerUpYourContainer {
+  height: 141px;
+  flex: 1;
+  position: relative;
+  color: var(--primary-100);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 5;
+  font-size: var(--font-size-35xl);
+  font-family: var(--font-garnett-semibold);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.empowerYourBusiness {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-family: var(--font-poppins);
+  color: var(--black);
+  z-index: 5;
+}
+.frameGroup {
+  width: 685px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.ctaButton {
+  width: 271px;
+  height: 70px;
+}
+.groupIcon {
+  height: 20px;
+  width: 20px;
+}
+.groupIcon,
+.noCreditRequired {
+  position: relative;
+}
+.internationaldayofsignlanguage {
+  height: 37px;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.groupIcon1 {
+  height: 20px;
+  width: 20px;
+}
+.groupIcon1,
+.streamlinedRecruitmentProces {
+  position: relative;
+}
+.option {
+  height: 37px;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.frameChild1,
+.rectangleDiv {
+  height: 94px;
+  width: 219px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--primary-100);
+  display: none;
+}
+.frameChild1 {
+  height: 64px;
+  width: 64px;
+  background-color: var(--primary-300);
+}
+.vectorIcon4 {
+  height: 28.3px;
+  width: 28.3px;
+  position: relative;
+  z-index: 2;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-lg) 17.69999999999999px;
+  background-color: var(--primary-300);
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.p {
+  margin: 0;
+}
+.happyCompanies1 {
+  margin: 0;
+  font-size: var(--font-size-smi-3);
+  font-family: var(--font-garnett-light);
+}
+.happyCompanies {
+  position: relative;
+  z-index: 1;
+}
+.happyCompaniesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.frameDiv,
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangleContainer {
+  border-radius: var(--br-8xs);
+  background-color: var(--primary-100);
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-sm) var(--padding-mini)
+    var(--padding-base);
+  gap: var(--gap-mini);
+  z-index: 5;
+}
+.frameDiv {
+  flex: 1;
+  justify-content: flex-end;
+  font-size: var(--font-size-5xl-9);
+  color: var(--primary-300);
+  font-family: var(--font-space-grotesk);
+}
+.internationaldayofsignlanguageParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+}
+.ctaButtonParent,
+.frameParent,
+.frameWrapper,
+.internationaldayofsignlanguageParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.ctaButtonParent,
+.frameParent {
+  flex-direction: column;
+}
+.ctaButtonParent {
+  align-self: stretch;
+  height: 267px;
+  gap: var(--gap-8xl);
+  font-size: var(--font-size-sm);
+  color: var(--primary-100);
+  font-family: var(--font-poppins);
+}
+.frameParent {
+  width: 951px;
+  gap: var(--gap-17xl);
+}
+.inputBoxChild {
+  width: 140px;
+  height: 41px;
+  position: relative;
+  display: none;
+}
+.inputBox {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) var(--padding-101xl) var(--padding-19xl);
+  box-sizing: border-box;
+  gap: var(--gap-85xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl-9);
+  color: var(--primary-300);
+  font-family: var(--font-space-grotesk);
+}
+@media screen and (max-width: 1125px) {
+  .talentFinderParent {
+    display: none;
+  }
+}
+@media screen and (max-width: 825px) {
+  .talentFinderParent {
+    gap: 32px 16px;
+  }
+  .outputPort {
+    gap: 36px 18px;
+  }
+  .powerUpYourContainer {
+    font-size: var(--font-size-19xl);
+  }
+  .frameParent {
+    gap: 18px 36px;
+  }
+  .inputBox {
+    gap: 52px 104px;
+    padding: var(--padding-3xl) var(--padding-41xl) var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kCandidatesHiredContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .powerUpYourContainer {
+    font-size: var(--font-size-10xl);
+  }
+  .happyCompanies {
+    font-size: var(--font-size-lgi);
+  }
+  .inputBox {
+    gap: 26px 104px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
