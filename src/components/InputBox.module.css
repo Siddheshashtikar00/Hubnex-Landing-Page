@@ -1,85 +1,87 @@
 .logoChild,
 .logoItem {
-  height: 100%;
   position: absolute;
-  margin: 0 !important;
+  margin: 0;
   top: 0;
   bottom: 0;
 }
+.e {
+  letter-spacing: 0.08em;
+  padding-right: 5px; /* Adjust as needed */
+}
+
 .logoChild {
-  width: 96.8px;
-  right: -0.3px;
-  border-radius: 0 5.71px 0 0;
+  width: 97px;
+  right: 0;
+  border-radius: 0 6px 6px 0;
   background-color: var(--primary-100);
 }
+
 .logoItem {
-  width: 117.8px;
+  width: 118px;
   left: 0;
-  border-radius: 5.71px;
-  border: 1.4px solid var(--primary-100);
+  border-radius: 6px;
+  border: 1px solid var(--primary-100);
   box-sizing: border-box;
   z-index: 1;
 }
-.r {
-  letter-spacing: -0.02em;
-}
-.e {
-  letter-spacing: 0.08em;
-}
+
 .re {
   font-weight: 600;
 }
+
 .work {
-  letter-spacing: -0.02em;
   font-family: var(--font-actor);
   color: var(--color-white);
 }
-.ai,
+
+.aiWrapper,
 .rework {
   position: relative;
   display: inline-block;
 }
+
 .rework {
   height: 24px;
-  min-width: 107.1px;
+  min-width: 107px;
+  display: flex; /* Added */
+  align-items: center; /* Added */
+  justify-content: center; /* Added */
   white-space: nowrap;
   z-index: 2;
 }
+
 .ai {
   height: 8px;
-  min-width: 10px;
   z-index: 1;
 }
+
 .aiWrapper {
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: var(--padding-base) 0 0;
   font-size: var(--font-size-xs-4);
   color: var(--color-white);
   font-family: var(--font-gilroy-regular);
 }
+
 .aiWrapper,
 .logo,
 .logoWrapper {
   display: flex;
   align-items: flex-start;
 }
+
 .logo {
   overflow: hidden;
-  flex-direction: row;
   justify-content: flex-start;
-  padding: var(--padding-5xs) var(--padding-6xs) var(--padding-5xs)
-    7.800000000000001px;
+  padding: var(--padding-5xs) var(--padding-6xs) var(--padding-5xs) 7.8px;
   position: relative;
-  gap: 7.1000000000000085px;
 }
+
 .logoWrapper {
-  flex-direction: column;
   justify-content: flex-end;
-  padding: 0 0 var(--padding-11xs);
-  text-align: left;
+  padding: 0;
   font-family: var(--font-outfit);
 }
+
 .talentFinder {
   width: 103px;
   position: relative;
